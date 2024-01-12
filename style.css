@@ -1,0 +1,272 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+}
+
+.header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+    box-shadow: 0px 10px 10px 4px gainsboro;
+    position: fixed;
+    height: 70px;
+    left: 0;
+    background-color: aliceblue;
+    right: 0;
+}
+
+.logo_number h2{
+    font-size: 10px;
+    color: cadetblue;
+}
+
+.logo_number{
+    width: 90px;
+}
+
+.logo_dadaki h2{
+    font-size: 41px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.logo_dadaki:hover{
+    animation: dadaki 1s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dadaki {
+    25%{
+        color: red;
+    }50%{
+        color: blue;
+    }75%{
+        color: yellowgreen;
+    }100%{
+        color: violet;
+    }
+}
+
+#block1{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.block1_body{
+    background: linear-gradient(90deg, hsla(186, 66%, 40%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+    margin: 0 auto;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.block1_full{
+    margin: 0 auto;
+    background: linear-gradient(90deg, hsla(186, 66%, 40%, 1) 0%, hsla(188, 78%, 69%, 1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.block1_text h2{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.block1_text span{
+    -webkit-text-stroke: 1px whitesmoke;
+    -webkit-text-fill-color: transparent;
+}
+
+.block1_text p{
+    color: blue;
+    font-size: 15px;
+    border-bottom: 1px solid ghostwhite;
+    width: 300px;
+    height: 100px;
+}
+
+.block1_img img{
+    border-radius: 30px;
+}
+
+.block1_button{
+    text-align: center;
+}
+
+.block1_button button{
+    width: 120px;
+    height: 25px;
+    border-radius: 5px;
+    border: navajowhite;
+    background: hsla(188, 96%, 41%, 8);
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.block1_button a{
+    color: white;
+    text-decoration: none;
+}
+
+.block1_button button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(90deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
+}
+
+#block2{
+    padding-top: 170px;
+    margin: 0 auto;
+}
+
+.block2_full{
+    margin: 0 auto;
+    width: 1000px;
+    background: azure;
+}
+
+.block2_img{
+    display: flex;
+    align-items: center;
+}
+
+.block2_img img{
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+    box-shadow: 10px 20px 10px 5px gainsboro;
+}
+
+.block2_img p{
+    width: 265px;
+    height: 65px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.block2_img2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.block2_img2 p{
+    width: 265px;
+    height: 65px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.block2_img2 img{
+    border-radius: 5px;
+    box-shadow: 10px 20px 10px 5px gainsboro;
+    margin: 0px 0px 0px 10px;
+}
+
+.block2_img3{
+    display: flex;
+    align-items: center;
+}
+
+.block2_img3 p{
+    width: 265px;
+    height: 65px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.block2_img3 img{
+    border-radius: 5px;
+    margin: 0px 10px 0px 0px;
+    box-shadow: 10px 20px 10px 5px gainsboro;
+}
+
+#block3{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 165px;
+}
+
+.block3_full{
+    background-color: #f41295;
+    border-radius: 35px;
+    margin: 0px 0px 30px 0px;
+}
+
+.block3_bio h3{
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0px 20px;
+    color: white;
+}
+
+.block3_body{
+    display: flex;
+    align-items: center;
+}
+
+.block3_img img{
+    border-radius: 50%;
+    box-shadow: 16px 9px 46px 1px darkblue;
+}
+
+.block3_img{
+    background: #4bb2ff;
+    border-radius: 140px 0px 0px 149px;
+}
+
+#yak{
+    background-color: cadetblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.block3_bio h1{
+    text-align: center;
+    color: aqua;
+    background: blue;
+}
+
+.line{
+    background-color: gainsboro;
+    width: 1000px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+#footer{
+    padding-top: 50px;
+}
+
+#footer h3{
+    text-align: center;
+    color: gainsboro;
+}
+
+#footer span{
+    -webkit-text-stroke: 1px rgb(0, 38, 255);
+    -webkit-text-fill-color: transparent;
+}
